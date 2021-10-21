@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ADBFB0"
+    tools:context=".QuizDone5">
+
+    <TextView
+        android:id="@+id/tv_s5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CONGRATULATION!"
+        android:textColor="#FFF"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.14" />
+
+    <ImageView
+        android:id="@+id/im_welldone5"
+        android:layout_width="281dp"
+        android:layout_height="270dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_s5"
+        app:layout_constraintVertical_bias="0.127"
+        app:srcCompat="@drawable/welldone" />
+
+    <ImageButton
+        android:id="@+id/ib_Hmenu5"
+        android:layout_width="92dp"
+        android:layout_height="79dp"
+        android:background="#ADBFB0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/im_welldone5"
+        app:layout_constraintVertical_bias="0.72"
+        app:srcCompat="@drawable/home" />
+
+    <ImageButton
+        android:id="@+id/ib_replay5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#ADBFB0"
+        app:layout_constraintBottom_toTopOf="@+id/ib_Hmenu5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/im_welldone5"
+        app:layout_constraintVertical_bias="0.752"
+        app:srcCompat="@drawable/btnreplay" />
+
+    <ImageButton
+        android:id="@+id/ib_ExitMenuD5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#ADBFB0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ib_replay5"
+        app:layout_constraintVertical_bias="0.78"
+        app:srcCompat="@drawable/btnexit" />
+</androidx.constraintlayout.widget.ConstraintLayout>
